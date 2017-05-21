@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 20, 2017, 2:19:53 PM
+    Author     : Chandara Leang
+*/
+
+body{
+    margin: 0 auto;
+    font-family: Arial, "san-serif", Helvatica;
+}
+
+#header{
+    background-color: #DDDDDD;
+    padding: 5px;
+    position:fixed;
+    width:100%;
+    top:0;
+}
+
+#dictionaryTitle{
+   text-shadow: 3px 3px #888888;
+}
+
+#dictionaryIcon{
+    float: left;
+    width: 90px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+#input{
+    background-color: #EEEEEE;
+    padding: 7px;
+    padding-left: 10px;
+    position:fixed;
+    width:100%;
+    margin-top: 100px;
+}
+
+#inputTerm{
+    font-size: 14pt;
+}
+
+input[type="text"]{
+    width: 250px;
+    height: 25px;
+    font-size: 14pt;
+}
+
+#btnLookup{
+    height: 30px;
+    font-size: 14pt;
+}
+
+#loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+#output{
+    padding-top: 160px;
+    padding-left: 10px;
+}
+
+#footer{
+    float: right;
+    padding-top: 50px;
+    padding-right: 10px;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+}
